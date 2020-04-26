@@ -8,15 +8,16 @@ public class Phone {
     // 品牌 、 价格 、 颜色
     String pinpai;
     int price;
-    String color;
-    String name;
+    String color;// 成员变量
+
 
     // 方法：给某人打电话
     public void Call(){
-        System.out.println("给"+name+"打电话");
+        int a = 45; //a 就是局部变量
+        System.out.println("打电话");
     }
     // 发短信
     public void Send(){
-        System.out.println("给"+name+"发短信");
+        System.out.println("发短信");
     }
 }
